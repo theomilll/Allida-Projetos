@@ -56,8 +56,7 @@ int main()
                 printf("Error opening file!\n");
                 exit(1);
             }
-            fprintf(fp, "This is testing for fprintf...\n");
-            fputs("This is testing for fputs...\n", fp);
+            fprintf(fp, "1");
             fclose(fp);
             return 0;
 
