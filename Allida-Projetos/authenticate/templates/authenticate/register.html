@@ -1,0 +1,300 @@
+<html lang="en">
+    <head>
+    	<meta charset="utf-8">
+        	<title>Html Generated</title>
+            <meta name="description" content="Figma htmlGenerator">
+            <meta name="author" content="htmlGenerator">
+            <link href="https://fonts.googleapis.com/css?family=Syne&display=swap" rel="stylesheet">
+
+            <link rel="stylesheet" href="styles.css">
+            
+            <style>
+              body {background: #E5E5E5; }
+            </style>
+          
+        </head>  
+        	<body>
+        		<div class=e261_22>
+					<div class=e261_23>
+            		<div  class="e261_24"></div>
+					<span  class="e261_25">CADASTRO</span>
+				</div>
+
+					<span  class="e261_26">Nome completo</span>
+					<input  type="text" class="e261_27" placeholder=" Nome e Sobrenome">
+
+					<span  class="e261_28">Celular</span>
+					<input type="text" class="e261_29" placeholder="(XX) X XXXX-XXXX">
+
+					<span  class="e261_30">E-mail</span>
+					<input type="email" class="e261_31" placeholder=" seuemail@email.com">
+
+					<span  class="e261_32">Senha</span>
+					<input type="password" class="e261_33" placeholder=" Senha">
+
+					<span  class="e261_34">Confirmação de Senha</span>
+					<input type="password" class="e261_35" placeholder=" Confirmar Senha">
+                    <form action="{% url 'register' %}" method="POST">
+                        {% csrf_token %}
+                        {{ form.as_p }}
+					<div class=e261_36>
+						<button  class="e261_37">
+							<span  class="e261_38 cad-btn">CADASTRAR</span>
+						</button>
+					</div>
+
+					<div class=e261_39>
+						<button  class="e261_40">
+							<span  class="e261_41 cancelar-btn">CANCELAR</span>
+						</button>
+					</div>
+					<span  class="e261_42">ALLIDA</span>
+				</div>
+          	</body>
+          </html>
+          <style>
+.e261_22 { 
+	background-color:rgba(254.00000005960464, 245.00000059604645, 243.00000071525574, 1);
+	width:390px;
+	height:827px;
+	position:absolute;
+}
+.e261_23 { 
+	width:390px;
+	height:90px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+.e261_24 { 
+	background-color:rgba(240.00000089406967, 113.00000086426735, 103.0000014603138, 1);
+	width:390px;
+	height:90px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+.e261_25 { 
+	color:rgba(255, 255, 255, 1);
+	width:119px;
+	height:24px;
+	position:absolute;
+	left: 135px;
+	top:45px;
+	font-family:Syne;
+	text-align:center;
+	font-size:20px;
+	letter-spacing:0;
+}
+.e261_26 { 
+	color:rgba(240.00000089406967, 113.00000086426735, 103.0000014603138, 1);
+	width:124px;
+	height:19px;
+	position:absolute;
+	left:133px;
+	top:116px;
+	font-family:Syne;
+	text-align:center;
+	font-size:16px;
+	letter-spacing:0;
+}
+.e261_27 { 
+	background-color:rgba(255, 255, 255, 1);
+	width:289px;
+	height:40px;
+	position:absolute;
+	left:50.5px;
+	top:161px;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+}
+.e261_28 { 
+	color:rgba(240.00000089406967, 113.00000086426735, 103.0000014603138, 1);
+	width:55px;
+	height:19px;
+	position:absolute;
+	left:167.5px;
+	top:227px;
+	font-family:Syne;
+	text-align:left;
+	font-size:16px;
+	letter-spacing:0;
+}
+.e261_29 { 
+	background-color:rgba(255, 255, 255, 1);
+	width:289px;
+	height:40px;
+	position:absolute;
+	left:50.5px;
+	top:272px;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+}
+.e261_30 { 
+	color:rgba(240.00000089406967, 113.00000086426735, 103.0000014603138, 1);
+	width:51px;
+	height:19px;
+	position:absolute;
+	left:169.5px;
+	top:338px;
+	font-family:Syne;
+	text-align:center;
+	font-size:16px;
+	letter-spacing:0;
+}
+.e261_31 { 
+	background-color:rgba(255, 255, 255, 1);
+	width:289px;
+	height:40px;
+	position:absolute;
+	left:50.5px;
+	top:383px;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+}
+.e261_32 { 
+	color:rgba(240.00000089406967, 113.00000086426735, 103.0000014603138, 1);
+	width:48px;
+	height:19px;
+	position:absolute;
+	left:171px;
+	top:449px;
+	font-family:Syne;
+	text-align:center;
+	font-size:16px;
+	letter-spacing:0;
+}
+.e261_33 { 
+	background-color:rgba(255, 255, 255, 1);
+	width:289px;
+	height:40px;
+	position:absolute;
+	left:50.5px;
+	top:494px;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+}
+.e261_34 { 
+	color:rgba(240.00000089406967, 113.00000086426735, 103.0000014603138, 1);
+	width:176px;
+	height:19px;
+	position:absolute;
+	left:107px;
+	top:560px;
+	font-family:Syne;
+	text-align:center;
+	font-size:16px;
+	letter-spacing:0;
+}
+.e261_35 { 
+	background-color:rgba(255, 255, 255, 1);
+	width:289px;
+	height:40px;
+	position:absolute;
+	left:50.5px;
+	top:605px;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+}
+.e261_36 { 
+	width:123px;
+	height:40px;
+	position:absolute;
+	left:133.5px;
+	top:671px;
+}
+.e261_37 { 
+	box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+	background-color:rgba(240.00000089406967, 113.00000086426735, 103.0000014603138, 1);
+	width:123px;
+	height:40px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+}
+.e261_38 { 
+	color:rgba(255, 255, 255, 1);
+	width:91px;
+	height:18px;
+	position:absolute;
+	left:18px;
+	top:11px;
+	font-family:Syne;
+	text-align:center;
+	font-size:15px;
+	letter-spacing:0;
+}
+.e261_39 { 
+	width:123px;
+	height:40px;
+	position:absolute;
+	left:133.5px;
+	top:737px;
+}
+.e261_40 { 
+	box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+	background-color:white;
+	width:123px;
+	height:40px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+}
+.e261_41 { 
+	color:rgba(240.00000089406967, 113.00000086426735, 103.0000014603138, 1);
+	width:78px;
+	height:17px;
+	position:absolute;
+	left:23px;
+	top:12px;
+	font-family:Syne;
+	text-align:center;
+	font-size:14px;
+	letter-spacing:0;
+}
+.e261_42 { 
+	color:rgba(240.00000089406967, 113.00000086426735, 103.0000014603138, 1);
+	width:83px;
+	height:24px;
+	position:absolute;
+	left:153.5px;
+	top:795px;
+	font-family:Syne;
+	text-align:center;
+	font-size:20px;
+	letter-spacing:0;
+}
+button, input{
+	border-style: none;
+}
+.cad-btn:hover{
+	transition: all 0.35s ;
+	background-color: rgb(196, 67, 58);
+	
+}
+.cancel-btn:hover{
+	transition: all 0.35s ;
+	background-color: rgba(248.0000004172325, 237.0000010728836, 235.0000011920929, 1);
+}
+input{
+	padding-left: 10px;
+}
+          </style>
